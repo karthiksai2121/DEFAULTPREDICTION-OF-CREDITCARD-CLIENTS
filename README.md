@@ -1,17 +1,16 @@
-# 📊 Credit Card Default Prediction using Machine Learning
+##Credit Card Default Prediction using Machine Learning
 
-## 📌 Overview
+##Overview
 This project focuses on predicting whether a credit card customer will default on their payment in the next month using machine learning techniques. The goal is to help financial institutions identify high-risk customers and reduce potential losses.
 
----
 
-## 📂 Dataset
+##Dataset
 The dataset used is the **UCI Credit Card Default Dataset**, which contains information on 30,000 customers.
 
-🔗 Dataset Link:  
+ Dataset Link:  
 https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients  
 
-### Features include:
+##Features include:
 - Demographic details (Age, Gender, Education, etc.)
 - Credit limit (LIMIT_BAL)
 - Repayment history (PAY_0 to PAY_6)
@@ -23,21 +22,21 @@ https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients
 - 0 → No Default  
 - 1 → Default  
 
----
 
-## ⚙️ Methodology
 
-### 1. Data Preprocessing
+# Methodology
+
+##1. Data Preprocessing
 - Removed unnecessary columns (ID)
 - Handled class imbalance using **SMOTE**
 - Applied **feature scaling (StandardScaler)**
 
-### 2. Exploratory Data Analysis (EDA)
+##2. Exploratory Data Analysis (EDA)
 - Data distribution analysis
 - Correlation heatmap
 - Feature relationship analysis
 
-### 3. Machine Learning Models
+##3. Machine Learning Models
 The following models were implemented:
 - Logistic Regression  
 - Decision Tree  
@@ -49,13 +48,12 @@ The following models were implemented:
 - CatBoost  
 - Voting Classifier  
 
-### 4. Hyperparameter Tuning
+##4. Hyperparameter Tuning
 - Applied **GridSearchCV** for Random Forest
 - Optimized parameters to improve model performance
 
----
 
-## 📈 Evaluation Metrics
+##  Evaluation Metrics
 Models were evaluated using:
 - Accuracy  
 - Precision  
@@ -63,32 +61,29 @@ Models were evaluated using:
 - F1-Score  
 - ROC-AUC  
 
----
 
-## 🏆 Results
+##  Results
 - **Tuned Random Forest** achieved the highest accuracy (~81.72%)
 - **CatBoost and XGBoost** performed better in detecting defaulters (higher recall)
 - Feature importance showed **repayment history** as the most critical factor
 
----
 
-## ⚠️ Challenges
+##  Challenges
 - Class imbalance in dataset  
 - Complex customer behaviour  
 - Feature selection and data quality  
-- Model evaluation limitations  
+- Model evaluation limitations
+  
 
----
-
-## 🔮 Future Work
+##  Future Work
 - Apply deep learning models  
 - Use real-time financial data  
 - Improve feature engineering  
 - Explore advanced imbalance handling techniques  
 
----
 
-## 🛠️ Technologies Used
+
+##  Technologies Used
 - Python  
 - Pandas  
 - NumPy  
