@@ -1,16 +1,16 @@
-##Credit Card Default Prediction using Machine Learning
+## Credit Card Default Prediction using Machine Learning
 
-##Overview
+## Overview
 This project focuses on predicting whether a credit card customer will default on their payment in the next month using machine learning techniques. The goal is to help financial institutions identify high-risk customers and reduce potential losses.
 
 
-##Dataset
+## Dataset
 The dataset used is the **UCI Credit Card Default Dataset**, which contains information on 30,000 customers.
 
  Dataset Link:  
 https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients  
 
-##Features include:
+## Features include:
 - Demographic details (Age, Gender, Education, etc.)
 - Credit limit (LIMIT_BAL)
 - Repayment history (PAY_0 to PAY_6)
@@ -26,17 +26,17 @@ https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients
 
 # Methodology
 
-##1. Data Preprocessing
+## 1. Data Preprocessing
 - Removed unnecessary columns (ID)
 - Handled class imbalance using **SMOTE**
 - Applied **feature scaling (StandardScaler)**
 
-##2. Exploratory Data Analysis (EDA)
+## 2. Exploratory Data Analysis (EDA)
 - Data distribution analysis
 - Correlation heatmap
 - Feature relationship analysis
 
-##3. Machine Learning Models
+## 3. Machine Learning Models
 The following models were implemented:
 - Logistic Regression  
 - Decision Tree  
@@ -48,7 +48,7 @@ The following models were implemented:
 - CatBoost  
 - Voting Classifier  
 
-##4. Hyperparameter Tuning
+## 4. Hyperparameter Tuning
 - Applied **GridSearchCV** for Random Forest
 - Optimized parameters to improve model performance
 
